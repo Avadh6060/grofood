@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/grofood/static/css/main.241ee747.chunk.css",
+    "main.js": "/grofood/static/js/main.405239ec.chunk.js",
+    "main.js.map": "/grofood/static/js/main.405239ec.chunk.js.map",
+    "runtime-main.js": "/grofood/static/js/runtime-main.82559645.js",
+    "runtime-main.js.map": "/grofood/static/js/runtime-main.82559645.js.map",
+    "static/css/2.d11bb6a5.chunk.css": "/grofood/static/css/2.d11bb6a5.chunk.css",
+    "static/js/2.1fad85ab.chunk.js": "/grofood/static/js/2.1fad85ab.chunk.js",
+    "static/js/2.1fad85ab.chunk.js.map": "/grofood/static/js/2.1fad85ab.chunk.js.map",
+    "index.html": "/grofood/index.html",
+    "static/css/2.d11bb6a5.chunk.css.map": "/grofood/static/css/2.d11bb6a5.chunk.css.map",
+    "static/css/main.241ee747.chunk.css.map": "/grofood/static/css/main.241ee747.chunk.css.map",
+    "static/js/2.1fad85ab.chunk.js.LICENSE.txt": "/grofood/static/js/2.1fad85ab.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/grofood/static/media/fonarto.bec137c0.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82559645.js",
+    "static/css/2.d11bb6a5.chunk.css",
+    "static/js/2.1fad85ab.chunk.js",
+    "static/css/main.241ee747.chunk.css",
+    "static/js/main.405239ec.chunk.js"
+  ]
+}
