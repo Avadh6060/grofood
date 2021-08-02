@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.categories-swiper {
+  background-color: white;
+  margin-top: -10px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+
+  border: 0.5px solid #e3e3e3;
+  border-radius: 6px;
+}
+.categories-swiper img {
+  width: 65px;
+  height: 65px;
+  margin: 15px auto;
+}
+.categories-swiper p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #646464;
+  font-family: "Nunito";
+
+  width: 100%;
+}
+.categories-swiper .swiper-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.categories-swiper .mySwiper {
+  margin: auto;
+}

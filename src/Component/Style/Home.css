@@ -1,0 +1,11 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.Categories {
+  font-family: "Nunito";
+  font-weight: 600 !important;
+  margin-left: 50px;
+  margin-top: 40px;
+}

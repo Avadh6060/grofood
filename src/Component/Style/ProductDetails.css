@@ -1,0 +1,55 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.product-detail-box {
+  background: white;
+  border: 0.5px solid #e3e3e3;
+  border-radius: 5px;
+  font-family: "Nunito";
+  text-transform: capitalize;
+}
+.product-detail-box .first-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.product-detail-box .col-lg-6 img {
+  width: 100%;
+}
+.product-detail-box .pro_title {
+  margin: 20px;
+  margin-top: 40px;
+}
+.foodContentsLabel {
+  margin: 20px;
+}
+.foodContentsLabel h4 {
+  color: #95c100;
+}
+.foodContentsLabel p {
+  font-size: 17px;
+}
+.nutrients {
+  margin: 20px;
+}
+.nutrients h4 {
+  color: #95c100;
+}
+.nutrients li {
+  list-style: none;
+}
+.product-detail-box .btn {
+  margin: 20px;
+  background-color: #95c100;
+  border: #95c100;
+  outline: #95c100;
+  border-radius: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  color: #e3e3e3;
+  font-weight: 600;
+}

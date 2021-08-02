@@ -1,0 +1,145 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.cart-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: blue;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  transition: 10s ease-in-out;
+  background: rgba(0, 0, 0, 0.5);
+}
+.cart-box {
+  position: absolute;
+  background: white;
+  width: 320px;
+  height: 100%;
+  right: 0;
+  font-family: "Nunito";
+  transition: 0.2s ease-in-out;
+}
+.cart-header {
+  border-bottom: 1px solid #e8e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 90%;
+  margin: auto;
+}
+.cart-header p {
+  position: relative;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.cart-item {
+  color: #95c100;
+}
+.cart-content .cart-list-scroll {
+  height: 50vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.cart-content .cart-list-box {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-bottom: none;
+  display: flex;
+  border-bottom: 0.5px solid #e3e3e3;
+
+  width: 98%;
+  margin: auto;
+}
+.cart-content .cart-list-box .cart-img {
+  display: inline-block;
+  height: 68px;
+  margin-right: 4px;
+  vertical-align: top;
+  width: 68px;
+}
+.cart-content .cart-details {
+  font-size: 12px;
+  width: 100%;
+}
+.cart-content .name-delete {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-content .delete-icon {
+  color: red;
+}
+.cart-content .product-name {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cart-content .product-items {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-content .button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fe9000;
+}
+.cart-content .total-price {
+  margin: 2px;
+  color: #95c100;
+  font-weight: 600;
+}
+.cart-content .summary {
+  width: 95%;
+  margin: auto;
+}
+.cart-content .card_summary {
+  padding: 10px;
+  text-align: center;
+  color: #333;
+  border-top: 0.5px solid #e3e3e3;
+  border-bottom: 0.5px solid #e3e3e3;
+}
+.cart-content .card_price {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.cart-content .tex_amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #444444;
+  margin-top: -10px;
+}
+
+.cart-content .total_amount {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.cart-content .summary .btn {
+  background: #95c100;
+  color: white;
+  width: 100%;
+  border-radius: 0;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.cart-content .quantity {
+  width: 10%;
+  text-align: center;
+}

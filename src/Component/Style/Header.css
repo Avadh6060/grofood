@@ -1,0 +1,63 @@
+@font-face {
+  font-family: fonarto;
+  src: url("../fonts/fonarto.ttf") format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: white;
+  border: 0.5px solid #e3e3e3;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header .Home-logo-icon img {
+  width: 120px;
+  margin-top: 40px;
+  margin-left: -50px;
+}
+.header .header_white {
+  font-family: fonarto;
+  font-size: 63px !important;
+  color: #9a9999;
+  width: 70%;
+}
+.header .clr_green {
+  color: #95c100;
+}
+.header .clr_orange {
+  color: #fe9000;
+}
+
+.header .search-box .search-box-bg img {
+  width: 60%;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+.header .search-box .search-box-bg input {
+  width: 60%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: "Nunito";
+  margin-bottom: 50px;
+  border: 3px solid #95c100;
+  border-radius: 60px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.search-btn {
+  margin-bottom: 30px;
+  background: #95c100;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+}

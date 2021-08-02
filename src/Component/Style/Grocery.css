@@ -1,0 +1,84 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.Grocery-swiper {
+  width: 100%;
+  background-color: white;
+  padding: 0%;
+  margin: auto;
+  margin-top: -10px;
+}
+.Grocery-swiper-box {
+  border: 0.5px solid #e3e3e3;
+  margin: auto;
+  padding: 1px;
+}
+.Grocery-swiper-box .treding {
+  margin-top: 10px;
+  text-align: center;
+}
+.Grocery-swiper-box .treding-icon {
+  padding: 0px 8px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Nunito";
+  color: #646464;
+}
+.Grocery-swiper-box .treding-icon:hover {
+  color: #95c100;
+}
+
+.Grocery-swiper-box .group_icon {
+  margin-right: 5px;
+}
+.Grocery-swiper-box .product-img {
+  text-align: center;
+}
+.Grocery-swiper-box .product-img img {
+  width: 90%;
+}
+.Grocery-swiper-box .review {
+  text-align: right;
+  margin-right: 10px;
+}
+.Grocery-swiper-box .product-title {
+  font-size: 14px;
+  width: 85%;
+  margin: 10px auto;
+  color: #666;
+  font-family: "Nunito";
+  font-weight: 600;
+  height: 40px;
+}
+.Grocery-swiper-box .product-title:hover {
+  color: #95c100;
+}
+
+.Grocery-swiper-box .price-btn-block {
+  width: 85%;
+  margin: auto;
+  color: #999;
+  font-family: "Nunito";
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.Grocery-swiper-box .price-btn-block .price {
+  font-size: 16px;
+  color: black;
+}
+.Grocery-swiper-box .price-btn-block .price_cut {
+  text-decoration: line-through;
+}
+.Grocery-swiper-box .price-btn-block .theme-btn-dash {
+  background-color: #e96125;
+  border: 1px solid #e96125;
+  border-radius: 56px;
+  padding: 6px 14px;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
