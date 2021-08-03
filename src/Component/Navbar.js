@@ -71,7 +71,7 @@ const Navbar = () => {
                                     My Cart</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link user-btn"><FaUserCircle /> Signin</a>
+                                <Link to="/login" className="nav-link user-btn"><FaUserCircle /> Signin</Link>
                             </li>
 
                         </ul>

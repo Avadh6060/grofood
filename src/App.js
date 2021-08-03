@@ -9,6 +9,8 @@ import Footer from '../src/Component/Footer';
 import { Provider } from 'react-redux';
 import { Store } from '../src/Redux/Store';
 import ProductDetails from './Component/ProductDetails';
+import Login from './Component/login';
+import Register from './Component/Register';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
 
             <Route exact path="/" component={Home} />
             <Route exact path="/ProductDetails/:id" component={ProductDetails}></Route>
+            <Route exact path="/login" component={Login}></Route>
+            <Route exact path="/register" component={Register} />
           </Switch>
           <Footer />
         </Router>
